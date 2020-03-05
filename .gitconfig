@@ -1,0 +1,17 @@
+# Core variables
+[core]
+	excludesfile = $HOME/.gitignore_global
+
+[include]
+	path = ~/.gitconfig.local
+
+; include if for all repositories inside $HOME/Documents/MTom
+[includeIf "gitdir:~/Documents/MTom/"]
+	path = ~/.gitconfig.work
+
+[alias]
+	a = "add ."
+	c = commit
+	p = push
+	s = status -sb
+	
