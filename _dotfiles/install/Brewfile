@@ -85,6 +85,7 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-hack-nerd-font'
+cask 'font-meslo-nerd-font'
 
 
 # Mac App Store
