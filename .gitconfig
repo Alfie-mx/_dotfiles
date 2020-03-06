@@ -1,6 +1,6 @@
 # Core variables
 [core]
-	excludesfile = $HOME/.gitignore_global
+	excludesfile = ~/.gitignore_global
 
 [include]
 	path = ~/.gitconfig.local
