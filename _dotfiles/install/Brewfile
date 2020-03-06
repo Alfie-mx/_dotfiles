@@ -1,0 +1,93 @@
+cask_args appdir: "/Applications"
+
+# Taps
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/bundle'
+
+# Binaries
+#brew 'coreutils' # GNU core utilities (those that come with macOS are outdated)
+#brew 'moreutils'
+#brew 'bash' # Bash 4 note: don't forget to add `/usr/bin/bash`
+            # to `/etc/shells` before running `chsh`
+#brew 'bash-completion@2'
+
+brew 'zsh'
+brew 'zsh-completions'
+
+brew 'htop'
+brew 'iftop'
+brew 'wget'
+brew 'bat' # Clone of cat with syntax highlighting and git
+brew 'wifi-password' # Show the current Wi-Fi password
+
+brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'tree'
+
+
+# Utilities
+#brew 'mackup' # sync application settings in Dropbox, Drive, etc
+brew 'mas' # Mac App Store CLI
+brew 'dockutil' # Tool for managing macOS dock items
+
+
+# Development
+brew 'git'
+brew 'node'
+brew 'yarn'
+#brew 'composer'
+
+
+# Apps
+cask 'alfred'
+cask 'spectacle'
+cask 'ubersicht'
+
+cask 'iterm2'
+
+cask 'firefox'
+cask 'google-chrome'
+brew 'chrome-cli'
+cask 'google-backup-and-sync'
+
+cask 'postman'
+cask 'insomnia' # REST client opensource
+
+#cask 'mysqlworkbench'
+#cask 'tableplus'
+#cask 'sequel-pro'
+
+cask 'coda'
+cask 'transmit'
+cask 'visual-studio-code'
+
+cask 'spotify'
+cask 'slack'
+
+
+# Quicklook
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'qlstephen'
+cask 'qlimagesize' # Display dimensions, size and DPI in the title bar
+cask 'qlvideo' # Display thumbnails, QuickLook previews, cover art metadata
+
+
+# Fonts
+cask 'font-lato'
+cask 'font-open-sans'
+cask 'font-roboto'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
+cask 'font-hack-nerd-font'
+
+
+# Mac App Store
+#mas 'Spark', id: 1176895641 # Email client
+
+
