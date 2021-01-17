@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>ApplePressAndHoldEnabled</key>
@@ -281,9 +283,9 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>320 338 799 448 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>67 240 570 452 0 0 1440 877 </string>
+	<string>40 380 955 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>327 304 570 452 0 0 1440 877 </string>
+	<string>24 161 633 469 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>197 425 570 452 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -942,12 +944,12 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{352, 877}</string>
+		<string>{0, 877}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>B3A835BE-C5F3-409B-B38B-E83AD458F99C</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>605339740.38284099</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1687,7 +1689,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-03-06T06:44:13Z</date>
+	<date>2020-03-24T18:08:55Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SoundForEsc</key>
